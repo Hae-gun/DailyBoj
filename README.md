@@ -9,7 +9,7 @@
    ![img](https://media.vlpt.us/images/chkchk610/post/a7e7b11f-629c-4361-bb46-aa0343354c3a/image.png)
 
    * 백준 사이트 스크래핑 (문제제목, 번호, 등급, 분류, url) 후 JSON 파일 생성 -> python
-   * 생성된 JSON 파일을 DB에 저장 -> SpringBoot + Batch ( RestAPI )
+   * 생성된 JSON 파일을 DB에 저장 -> SpringBoot + Batch ( RestAPI )
    * 매일밤 자정 카톡봇을 이용하여 저장된 문제들 중 설정한 조건에 따라 문제 보내주기. -> Kakao Openbot + SpringBoot
 
 ---
