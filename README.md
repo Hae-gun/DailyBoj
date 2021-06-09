@@ -57,6 +57,41 @@
 
 ## 2021.05.19
 
-* 스프링 서버 구성
-  * RestAPI 를 활용
-  * 
+* Python 스크립트 [code](https://github.com/Hae-gun/crawling/blob/master/JsonAPI/src/main/resources/python/crawlingScript.py)
+  * 티어별 데이터수집. 티어별 `.json` 파일 생성
+  * 사이트에 무리한 요청을 보내지 않기 위해 timer설정.
+
+## 2021.05.21
+
+* 서버구성
+  * Spring-boot
+  * RestContoroller 사용 (Restful api)
+  * Configuration 작성
+  * vo 정의
+
+## 2021.05.22
+
+* JPA 환경구성
+  * Account vo 클래스 테스트 구성
+  * JPA + H2 환경 테스트
+
+## 2021.05.23
+
+* 백준문제 vo정의
+  * vo 구성
+  * JpaRepository 사용
+  * Entity 및 Repository Configuration 작성
+  * Python crawling 을 통해 만들어진 `tier_xx.json` 파일 h2 database에 insert.
+
+## 2021.05.24
+
+* 배포환경구성
+  * 구상안 : GCP + Jenkins + DockerHub
+  * 초기 구성 : GCP + Tomcat 으로 구성
+  * Docker build시 `.json` 파일을 build 하는법 공부
+
+
+
+
+
+
