@@ -55,11 +55,23 @@
   * 해당 계정 오픈카톡방 이용가능.
   * 카카오 오픈빌더 체널 승인허가.
 
-## 2021.05.19
+## 2021.05.18
 
 * Python 스크립트 [code](https://github.com/Hae-gun/crawling/blob/master/JsonAPI/src/main/resources/python/crawlingScript.py)
   * 티어별 데이터수집. 티어별 `.json` 파일 생성
   * 사이트에 무리한 요청을 보내지 않기 위해 timer설정.
+
+## 2021.05.19
+
+* RestAPI 구성을 위한 Spring boot 환경 구성.
+* 주요 Dependency
+  * `spring-boot-starter-data-jpa`
+  * `spring-boot-starter-web`
+  * `com.h2database:h2`
+* 사용될 기술
+  * `RestController` 
+  * `JPA`
+* RestController 테스트 시행. 
 
 ## 2021.05.21
 
